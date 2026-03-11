@@ -1,8 +1,11 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class DesstroyOutOfBounds : MonoBehaviour
 {
     private float topBound = 50.0f;
+    private float lowerBound = -10.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,6 +16,11 @@ public class DesstroyOutOfBounds : MonoBehaviour
     void Update()
     {
         if (transform.position.z > topBound)
+        {
+            Destroy(gameObject);
+        }
+
+        else if (transform.position.z < lowerBound)
         {
             Destroy(gameObject);
         }
