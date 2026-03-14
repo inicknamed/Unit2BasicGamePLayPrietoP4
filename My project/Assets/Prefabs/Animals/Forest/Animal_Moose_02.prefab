@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 458270}
   - component: {fileID: 9506116}
   - component: {fileID: 2671636468171779643}
-  - component: {fileID: 9043845652686260643}
+  - component: {fileID: 327886380109039785}
   m_Layer: 0
   m_Name: Animal_Moose_02
   m_TagString: Untagged
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!114 &9043845652686260643
+--- !u!114 &327886380109039785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

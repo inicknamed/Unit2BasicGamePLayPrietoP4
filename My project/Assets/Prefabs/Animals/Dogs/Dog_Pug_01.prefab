@@ -4921,7 +4921,7 @@ GameObject:
   - component: {fileID: 495668}
   - component: {fileID: 9566022}
   - component: {fileID: 4249976344605488087}
-  - component: {fileID: 698292527525614208}
+  - component: {fileID: 5025506165975215011}
   m_Layer: 0
   m_Name: Dog_Pug_01
   m_TagString: Untagged
@@ -5016,7 +5016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!114 &698292527525614208
+--- !u!114 &5025506165975215011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
